@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysis>
+	<link
+		href="https://insight.sensiolabs.com/api/projects/6cd0e10b-8f44-42c3-a18f-b8708709f1b7/analyses/8"
+		rel="self" type="application/vnd.com.sensiolabs.insight+xml" />
+	<link
+		href="https://insight.sensiolabs.com/api/projects/6cd0e10b-8f44-42c3-a18f-b8708709f1b7/analyses/8/status"
+		rel="status" type="application/vnd.com.sensiolabs.insight+xml" />
+	<link
+		href="https://insight.sensiolabs.com/api/projects/6cd0e10b-8f44-42c3-a18f-b8708709f1b7"
+		rel="project" type="application/vnd.com.sensiolabs.insight+xml" />
+	<link
+		href="https://insight.sensiolabs.com/projects/6cd0e10b-8f44-42c3-a18f-b8708709f1b7/analyses/8"
+		rel="self" type="text/html" />
+	<status><![CDATA[finished]]></status>
+	<grades>
+		<entry><![CDATA[none]]></entry>
+		<entry><![CDATA[bronze]]></entry>
+		<entry><![CDATA[silver]]></entry>
+		<entry><![CDATA[gold]]></entry>
+		<entry><![CDATA[platinum]]></entry>
+	</grades>
+	<failed>true</failed>
+	<failure-message><![CDATA[The job was killed by an administrator]]></failure-message>
+	<begin-at><![CDATA[2017-05-04T15:46:46+0200]]></begin-at>
+	<end-at><![CDATA[2017-05-04T15:46:49+0200]]></end-at>
+	<duration>0</duration>
+	<number>8</number>
+	<altered>false</altered>
+	<remediation-cost>0</remediation-cost>
+	<nb-violations>0</nb-violations>
+	<launched-by><![CDATA[djer13]]></launched-by>
+	<configuration>
+		<ignored-branches>
+			<branch><![CDATA[gh-pages]]></branch>
+		</ignored-branches>
+		<pre-composer-script />
+		<post-composer-script />
+		<working-directory />
+		<php-version>5</php-version>
+		<php-ini />
+		<commit-failure-conditions>
+			<branch><![CDATA[project.severity.critical > 0]]></branch>
+			<branch><![CDATA[project.severity.major > 0]]></branch>
+		</commit-failure-conditions>
+		<global-excluded-dirs>
+			<dir><![CDATA[vendor]]></dir>
+			<dir><![CDATA[vendors]]></dir>
+			<dir><![CDATA[test]]></dir>
+			<dir><![CDATA[tests]]></dir>
+			<dir><![CDATA[Tests]]></dir>
+			<dir><![CDATA[spec]]></dir>
+			<dir><![CDATA[features]]></dir>
+			<dir><![CDATA[Fixtures]]></dir>
+			<dir><![CDATA[DataFixtures]]></dir>
+			<dir><![CDATA[var]]></dir>
+		</global-excluded-dirs>
+		<excluded-patterns>
+			<pattern><![CDATA[app/check.php]]></pattern>
+			<pattern><![CDATA[app/SymfonyRequirements.php]]></pattern>
+			<pattern><![CDATA[web/config.php]]></pattern>
+			<pattern><![CDATA[web/app_*.php]]></pattern>
+			<pattern><![CDATA[upgrade.php]]></pattern>
+			<pattern><![CDATA[app/bundles/CoreBundle/Assets/js/libraries/ckeditor/*]]></pattern>
+		</excluded-patterns>
+		<patterns>
+			<file>
+				<pattern><![CDATA[*.php]]></pattern>
+				<pattern><![CDATA[*.twig]]></pattern>
+				<pattern><![CDATA[*.xml]]></pattern>
+				<pattern><![CDATA[*.yml]]></pattern>
+				<pattern><![CDATA[*.yaml]]></pattern>
+				<pattern><![CDATA[*.ini]]></pattern>
+				<pattern><![CDATA[*.dist]]></pattern>
+				<pattern><![CDATA[*.sql]]></pattern>
+				<pattern><![CDATA[*.md]]></pattern>
+				<pattern><![CDATA[*.rst]]></pattern>
+				<pattern><![CDATA[composer.*]]></pattern>
+				<pattern><![CDATA[.gitignore]]></pattern>
+				<pattern><![CDATA[LICENSE]]></pattern>
+				<pattern><![CDATA[README]]></pattern>
+				<pattern><![CDATA[Makefile]]></pattern>
+				<pattern><![CDATA[.htaccess]]></pattern>
+			</file>
+			<php>
+				<pattern><![CDATA[*.php]]></pattern>
+			</php>
+			<twig>
+				<pattern><![CDATA[*.twig]]></pattern>
+			</twig>
+		</patterns>
+		<rules />
+		<parameters>
+			<parameter name="project_type">10</parameter>
+		</parameters>
+		<env />
+	</configuration>
+	<previous-analyses-references>
+		<analysis-reference number="7">4364c1318665d3368179a1f84dd063272bc4dd9e</analysis-reference>
+		<analysis-reference number="6">5846979018ba327f26a977a6dbf63e678fe33a7d</analysis-reference>
+		<analysis-reference number="5">c46a9eae6f588f083dad771c091a268acf17f8d8</analysis-reference>
+		<analysis-reference number="4">c055aabe476418218deaef9a68cec91119e4cbbd</analysis-reference>
+		<analysis-reference number="3">dfb507c5c9afa22b2941e33616687bbb318043ba</analysis-reference>
+		<analysis-reference number="2">0506f606be8bf3bdcfba5c57c8b5d832d66528c1</analysis-reference>
+		<analysis-reference number="1">df868f8930b611148b21450c5a9659cc28d05f67</analysis-reference>
+	</previous-analyses-references>
+	<nb-violations-new>0</nb-violations-new>
+	<nb-violations-existing>0</nb-violations-existing>
+	<nb-violations-fixed>0</nb-violations-fixed>
+	<nb-violations-ignored>0</nb-violations-ignored>
+</analysis>

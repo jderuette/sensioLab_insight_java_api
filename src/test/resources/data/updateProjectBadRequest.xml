@@ -1,0 +1,18 @@
+<error type="client">
+	<entity>
+		<body>
+			<parameter name="insight_project[name]">
+				<message xml:lang="en">Please provide a project name</message>
+			</parameter>
+
+			<parameter name="insight_project[repositoryUrl]">
+				<message xml:lang="en">The repository URL should not be empty.
+				</message>
+			</parameter>
+
+			<parameter name="insight_project[type]">
+				<message xml:lang="en">Please provide a project type</message>
+			</parameter>
+		</body>
+	</entity>
+</error>

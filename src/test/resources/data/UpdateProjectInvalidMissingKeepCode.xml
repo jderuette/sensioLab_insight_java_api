@@ -1,0 +1,11 @@
+<error type="client">
+	<entity>
+		<body>
+			<parameter name="insight_project[insight_project]">
+				<message xml:lang="en">You can not disable keep code if the
+					project is public.</message>
+			</parameter>
+
+		</body>
+	</entity>
+</error>
